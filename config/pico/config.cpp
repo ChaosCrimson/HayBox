@@ -24,10 +24,10 @@ size_t backend_count;
 KeyboardMode *current_kb_mode = nullptr;
 
 GpioButtonMapping button_mappings[] = {
-    {&InputState::l,            5 },            //default 5
-    { &InputState::left,        4 },            //default 4
-    { &InputState::down,        3 },            //default 3
-    { &InputState::right,       2 },            //default 2
+    {&InputState::l,            17 },            //default 5, L
+    { &InputState::left,        5 },            //default 4, left
+    { &InputState::down,        3 },            //default 3, down
+    { &InputState::right,       2 },            //default 2, right
 
     { &InputState::mod_x,       6 },            //default 6
     { &InputState::mod_y,       7 },            //default 7
@@ -45,7 +45,7 @@ GpioButtonMapping button_mappings[] = {
     { &InputState::b,           26},            //default 26
     { &InputState::x,           21},            //default 21
     { &InputState::z,           19},            //default 19
-    { &InputState::up,          17},            //default 17
+    { &InputState::up,          4},            //default 17, up
 
     { &InputState::r,           27},            //default 27
     { &InputState::y,           22},            //default 22
